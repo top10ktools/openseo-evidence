@@ -33,6 +33,8 @@ Open `http://localhost:8080`. Static hosting must preserve the included CSP; no 
 
 See [`docs/privacy-architecture.md`](docs/privacy-architecture.md), [`docs/threat-model.md`](docs/threat-model.md), and [`docs/methodology.md`](docs/methodology.md).
 
+Future maintainers should start with [`docs/maintenance-roadmap.md`](docs/maintenance-roadmap.md) for architecture boundaries, release procedure, prioritized upgrades and acceptance rules.
+
 ## Verify a release
 
 ```sh
