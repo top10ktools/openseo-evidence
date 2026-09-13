@@ -1,0 +1,1 @@
+import {writeFile} from 'node:fs/promises';const bom={bomFormat:'CycloneDX',specVersion:'1.5',version:1,metadata:{component:{type:'application',name:'openseo-evidence',version:'0.1.0'}},components:[]};await writeFile('dist/sbom.cdx.json',JSON.stringify(bom,null,2)+'\n');console.log('Dependency-free CycloneDX SBOM written.');
